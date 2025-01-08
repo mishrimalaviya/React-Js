@@ -34,8 +34,8 @@ function Product() {
                         <br></br>
                         <input placeholder="Enter the Image" class="form-control rounded-pill mt-2" onChange={(e) => setimg(e.target.value)} ></input><br></br>
 
-                        <input placeholder="Enter the title" class="form-control rounded-pill mt-2" type="password" onChange={(e) => settitle(e.target.value)} ></input><br></br>
-                        <input placeholder="Enter the price" class="form-control rounded-pill mt-2" type="password" onChange={(e) => setprice(e.target.value)}  ></input><br></br>
+                        <input placeholder="Enter the title" class="form-control rounded-pill mt-2"  onChange={(e) => settitle(e.target.value)} ></input><br></br>
+                        <input placeholder="Enter the price" class="form-control rounded-pill mt-2"  onChange={(e) => setprice(e.target.value)}  ></input><br></br>
                         <button class="form-control btn rounded-pill" style={{ background: "rgb(255, 216, 95)" }} onClick={data}>Submit</button>
                         <p onClick={() => setstate(false)} class="text-center pt-2" style={{ cursor: "pointer" }}>Product Page</p>
 
