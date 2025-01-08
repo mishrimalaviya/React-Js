@@ -28,9 +28,8 @@ function Product() {
 
             <div class="w-100   p-5 m-auto mt-5 d-flex justify-content-center align-items-center flex-wrap" style={{height:"600px"}}>
                 {state ?
-
                     <div class="w-25 m-auto " style={{height:"700px"}}>
-                        <h3 >Form Page </h3>
+                        <h3>Form Page </h3>
                         <br></br>
                         <input placeholder="Enter the Image" class="form-control rounded-pill mt-2" onChange={(e) => setimg(e.target.value)} ></input><br></br>
 
