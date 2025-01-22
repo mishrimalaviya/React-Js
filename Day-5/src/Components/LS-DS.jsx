@@ -6,6 +6,7 @@ function Login() {
     var [usename, setusename] = useState("")
     var [email, emails] = useState("")
     var [password, passwords] = useState("")
+    
     var [checkemail, setemail] = useState("")
     var [checkpassword, setpassword] = useState("")
     var [arr, array] = useState([])
