@@ -22,12 +22,14 @@ function Form()
     function s(e)
     {
         e.preventDefault()
+        console.log(state)
         setarray([...arr,state])
 
         setstate({
             url:"",
             title:"",
-            price:"" 
+            price:"",
+            id:v4()
         })
     }
     console.log(arr)
@@ -45,7 +47,6 @@ function Form()
                 <input placeholder="enter the title" onChange={dat} name='title' value={state.title}></input>
                 <input placeholder="enter the price" onChange={dat} name='price' value={state.price}></input>
                 <input type="submit"></input>
-
             </form>
         </>
     )
